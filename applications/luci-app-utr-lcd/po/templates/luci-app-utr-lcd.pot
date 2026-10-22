@@ -21,11 +21,11 @@ msgstr ""
 msgid "As is"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:75
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:76
 msgid "Automatic"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:73
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:74
 msgid "Automatic uses the stock UniFi look (its bundle is installed)."
 msgstr ""
 
@@ -53,13 +53,13 @@ msgstr ""
 msgid "Background: total"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:93
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:94
 msgid ""
 "Backlight in percent (1-100) while the screen is active. Empty leaves it "
 "unchanged (the stock UniFi look starts at 80)."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:125
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:126
 msgid "Backlight percent while dimmed."
 msgstr ""
 
@@ -79,13 +79,17 @@ msgstr ""
 msgid "Bright line at the edge of the fill"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:92
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:93
 msgid "Brightness"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:27
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:76
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:77
 msgid "Built-in renderer"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:53
+msgid "CPU + memory (one line)"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:90
@@ -95,13 +99,17 @@ msgid ""
 "below 80%, amber to 90%, red above."
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:52
+msgid "CPU load"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:89
 msgid ""
 "CPU load: a total bar, one segment per core in a single bar, or one strip "
 "per core stacked in the row. Green below 60%, amber to 85%, red above."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:138
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:139
 msgid ""
 "Change in milli-g (1000 = 1 g) that counts as motion and restores full "
 "brightness. Lower is more sensitive; below about 15 the sensor noise can "
@@ -114,8 +122,36 @@ msgid ""
 "the client list."
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:32
+msgid "Client count"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:41
+msgid "Client download speed (bar)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:45
+msgid "Client downloaded total (bar)"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:512
 msgid "Client names up to"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:40
+msgid "Client speed, down+up (bar)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:44
+msgid "Client traffic, total (bar)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:42
+msgid "Client upload speed (bar)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:46
+msgid "Client uploaded total (bar)"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:84
@@ -135,6 +171,14 @@ msgid ""
 "Clients ranked by total traffic (bytes since boot); the number is the total. "
 "Background, peak and split work as in the speed client list (split shows "
 "uploaded vs downloaded bytes)."
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:48
+msgid "Clients, speed"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:49
+msgid "Clients, total"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:39
@@ -172,11 +216,11 @@ msgstr ""
 msgid "Debug line"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:119
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:120
 msgid "Dim after"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:125
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:126
 msgid "Dim level"
 msgstr ""
 
@@ -188,8 +232,12 @@ msgstr ""
 msgid "Display"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:71
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:72
 msgid "Display mode"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:37
+msgid "Divider line"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:78
@@ -214,7 +262,7 @@ msgstr ""
 msgid "Duplicate"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:67
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:68
 msgid "Enable"
 msgstr ""
 
@@ -236,6 +284,10 @@ msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:366
 msgid "Fit: off"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:55
+msgid "Flash storage"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:92
@@ -277,7 +329,7 @@ msgstr ""
 msgid "Hide widgets and preview"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:106
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:107
 msgid "Horizontal offset"
 msgstr ""
 
@@ -313,7 +365,11 @@ msgstr ""
 msgid "Join next"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:61
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:34
+msgid "LAN IP address"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:62
 #: applications/luci-app-utr-lcd/root/usr/share/luci/menu.d/luci-app-utr-lcd.json:3
 msgid "LCD Display"
 msgstr ""
@@ -334,6 +390,10 @@ msgstr ""
 msgid "Live data from this router"
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:56
+msgid "Load average"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:93
 msgid ""
 "Load average against the core count: background bar = 1-minute load, numbers "
@@ -344,6 +404,10 @@ msgstr ""
 msgid "Look"
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:54
+msgid "Memory"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:91
 msgid "Memory used, percent. Green below 80%, amber to 90%, red above."
 msgstr ""
@@ -352,7 +416,7 @@ msgstr ""
 msgid "Missing, the display driver is not loaded"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:137
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:138
 msgid "Motion sensitivity"
 msgstr ""
 
@@ -372,10 +436,18 @@ msgstr ""
 msgid "Move up"
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:51
+msgid "Multi-WAN shares"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:68
 msgid ""
 "Name of the network the uplink is connected to (SSID, or Ethernet). Wrap "
 "puts a long name on two lines, Shrink then steps the font down until it fits."
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:25
+msgid "Network name"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:382
@@ -418,6 +490,10 @@ msgid ""
 "installed; hidden with a single uplink."
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:29
+msgid "Online status"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:483
 msgid "Options"
 msgstr ""
@@ -442,7 +518,7 @@ msgstr ""
 msgid "Reading the panel"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:81
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:82
 msgid "Refresh interval"
 msgstr ""
 
@@ -473,7 +549,7 @@ msgid "Rotate through the screens"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:498
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:86
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:87
 msgid "Rotation"
 msgstr ""
 
@@ -501,23 +577,23 @@ msgid ""
 "display service."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:81
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:82
 msgid "Seconds between status updates."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:120
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:121
 msgid ""
 "Seconds without motion before the backlight dims. 0 never dims. Moving the "
 "router restores it."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:132
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:133
 msgid ""
 "Seconds without motion before the backlight turns off. 0 keeps the screen on "
 "(dimmed if enabled). Moving the router wakes it."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:64
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:65
 #: applications/luci-app-utr-lcd/root/usr/share/luci/menu.d/luci-app-utr-lcd.json:15
 msgid "Settings"
 msgstr ""
@@ -546,12 +622,32 @@ msgstr ""
 msgid "Shrink"
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:30
+msgid "Signal (Wi-Fi fan)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:27
+msgid "Signal (bars)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:28
+msgid "Signal (line bar)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:31
+msgid "Signal (segment bar)"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:459
 msgid "Signal background"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:508
 msgid "Signal background brightness"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:26
+msgid "Signal strength"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:483
@@ -594,6 +690,18 @@ msgstr ""
 msgid "Spacing: auto"
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:50
+msgid "Speed by client (ring)"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:38
+msgid "Speed down / up"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:39
+msgid "Speed down+up (one line)"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:558
 msgid ""
 "Speeds are bits per second (5.2M = 5.2 Mb/s); totals are bytes. The client "
@@ -605,11 +713,11 @@ msgid "Split up/down"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:23
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:153
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:154
 msgid "Status"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:62
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:63
 msgid ""
 "Status display for the UniFi Travel Router LCD. Saving restarts the display "
 "service."
@@ -624,19 +732,19 @@ msgid "Stock UI bundle"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:28
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:78
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:79
 msgid "Stock UniFi look"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:113
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:114
 msgid "Stock UniFi look only, in pixels."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:98
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:99
 msgid "Stock UniFi look only."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:107
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:108
 msgid ""
 "Stock UniFi look only: shifts the 135 px wide image inside the 136 px panel, "
 "in pixels."
@@ -646,7 +754,7 @@ msgstr ""
 msgid "Stopped"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:87
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:88
 msgid "The Long-Range model is mounted upside down, so it uses 180°."
 msgstr ""
 
@@ -687,13 +795,13 @@ msgid ""
 "applies to Wi-Fi uplinks."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:74
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:75
 msgid ""
 "The stock UniFi look is not installed (see the README, optional stock "
 "bundle), so the built-in renderer is used."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:98
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:99
 msgid "Theme"
 msgstr ""
 
@@ -705,6 +813,10 @@ msgstr ""
 msgid "Too much: %d of %d px used, the widgets do not fit on the screen."
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:43
+msgid "Total traffic"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:80
 msgid "Total traffic since boot as one number (download + upload)."
 msgstr ""
@@ -713,7 +825,7 @@ msgstr ""
 msgid "Traffic"
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:131
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:132
 msgid "Turn off after"
 msgstr ""
 
@@ -736,6 +848,10 @@ msgid ""
 "offline, dim when on standby."
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:47
+msgid "Uplinks (icons, mwan3)"
+msgstr ""
+
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:79
 msgid ""
 "Upload speed split by client. Show speed value writes the total upload speed "
@@ -748,6 +864,11 @@ msgid ""
 "(the router itself)."
 msgstr ""
 
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:36
+msgid "Uptime"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:35
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:48
 msgid "VPN"
 msgstr ""
@@ -758,12 +879,16 @@ msgid ""
 "configured."
 msgstr ""
 
-#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:113
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:114
 msgid "Vertical offset"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:47
 msgid "WAN IP"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:33
+msgid "WAN IP address"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:522
@@ -827,6 +952,10 @@ msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/settings.js:34
 msgid "Wi-Fi"
+msgstr ""
+
+#: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:57
+msgid "Wi-Fi chip temperature"
 msgstr ""
 
 #: applications/luci-app-utr-lcd/htdocs/luci-static/resources/view/utr-lcd/screens.js:94
